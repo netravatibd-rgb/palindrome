@@ -1,7 +1,5 @@
 
-import sys
-
-string = sys.argv[1] if len(sys.argv) > 1 else input("Enter a string: ")
+string = "madam"
 
 if string == string[::-1]:
     print(string, "is a palindrome")
